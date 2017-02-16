@@ -23,7 +23,7 @@ public class HolderMovieList extends RecyclerView.ViewHolder {
     }
 
     public void bind(String data){
-        title.setText(da    ta);
+        title.setText(data);
         image.setImageResource(R.mipmap.ic_launcher);
     }
 }
